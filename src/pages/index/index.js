@@ -8,7 +8,7 @@ import '../../assets/iconfont/iconfont.css'
 import '../../assets/iconfont/iconfont.js'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import Tip from '../../assets/js/Popup.js'
-Vue.use(Tip)     //提示插件
+Vue.use(Tip)  
 Vue.use(VueResource)
 Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
