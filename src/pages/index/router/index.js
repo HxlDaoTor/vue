@@ -10,15 +10,11 @@ const ceshi = r => require.ensure([], () => r(require('@/components/ceshi')))
 const login = r => require.ensure([], () => r(require('@/components/login')))
 const reg = r => require.ensure([], () => r(require('@/components/reg')))
 const topup = r => require.ensure([], () => r(require('@/components/topUp')))
-//const shipan = r => require.ensure([], () => r(require('@/components/shipan')))
 const withdra = r => require.ensure([], () => r(require('@/components/withDra')))
 const drop = r => require.ensure([], () => r(require('@/components/drop')))
 const myRecord = r => require.ensure([], () => r(require('@/components/My/myRecord')))
 const myProb = r => require.ensure([], () => r(require('@/components/My/myProb')))
 const contact = r => require.ensure([], () => r(require('@/components/My/callWe')))
-//const anfst = r => require.ensure([], () => r(require('@/components/My/anfirst')))
-//const ansecd = r => require.ensure([], () => r(require('@/components/My/ansecond')))
-//const tradList = r => require.ensure([], () => r(require('@/components/My/tradList')))
 const active = r => require.ensure([], () => r(require('@/components/active')))
 const Tutorial = r => require.ensure([], () => r(require('@/components/Tutoria')))
 const backPassword = r => require.ensure([], () => r(require('@/components/backPass')))
@@ -181,28 +177,7 @@ Vue.use(Router) /* 使用路由 */
 	  name: 'drop', 
 	  component: drop
 
-	},
-	// { 
-	//   path: '/angn',   
-	//   name: 'angn', 
-	//   component: angn,
-	//   children: [
-
- //        {
- //          // 当 /user/:id/profile 匹配成功，
- //          // UserProfile 会被渲染在 User 的 <router-view> 中
- //          path: 'anfst',
- //          component: anfst
- //        },
- //        {
- //          // 当 /user/:id/posts 匹配成功
- //          // UserPosts 会被渲染在 User 的 <router-view> 中
- //          path: 'ansecd',
- //          component: ansecd
- //        }
- //      ]
-
-	// }
+	}
 
   ] 
 
