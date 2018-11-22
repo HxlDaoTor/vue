@@ -12,9 +12,6 @@ Vue.use(Tip)
 Vue.use(VueResource)
 Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
-
-
-console.log('vvvvvvvvvvvvv')
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
