@@ -1,5 +1,4 @@
-# newobj
-
+一个购物商城，有购物车、详情页等
 > A Vue.js project
 
 ## Build Setup
