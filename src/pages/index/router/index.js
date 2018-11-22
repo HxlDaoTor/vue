@@ -28,16 +28,15 @@ Vue.use(Router) /* 使用路由 */
  const router = new Router({ 
     mode: 'history',
  	routes: [ /* 进行路由配置，规定“/”引入到Hello组件  */ 
-    { 
-	  path: '/', 
-      redirect: 'login' ,            //重定向
+      { 
+	 path: '/', 
+         redirect: 'login' ,            //重定向
 	},
 	{ 
 	  path: '/home', 
 	  name: 'home', /**/ 
 	  component: HelloWorld,/* 注册Hello组件 */ 
 	  meta: { title: "百汇网" }
-
 	},
 	{ 
 	  path: '/My',              //--------------------------------------
